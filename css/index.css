@@ -200,7 +200,7 @@
         .hero{
             width: 100%;
             height: 810px;
-            background-image: url('./images/slider-01.jpg');
+            background-image: url('../images/slider-01.jpg');
             background-position: center;
             background-size: cover;
             display: flex;
@@ -331,7 +331,7 @@
         .after-hero-bg{
             width: 50%;
             height: 100%;
-            background-image: url('./images/about-thumb-01.jpg');
+            background-image: url('../images/about-thumb-01.jpg');
             background-size: cover;
         }
         .hero-text{
@@ -624,7 +624,7 @@
             align-items: end;
             transition: 0.25s;
             background-size: cover;
-            background-image: url('./images/team-1.jpg');
+            background-image: url('../images/team-1.jpg');
             background-position: center;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
@@ -633,10 +633,10 @@
             scale: 1.05;
         }
         .bottom-team a:nth-child(2) .profiles{
-            background-image: url('./images/team-2.jpg');
+            background-image: url('../images/team-2.jpg');
         }
         .bottom-team a:nth-child(3) .profiles{
-            background-image: url('./images/team-03.jpg');
+            background-image: url('../images/team-03.jpg');
         }
         .profiles div{
             display: flex;
@@ -810,13 +810,13 @@
             position: relative;
         }
         .profile-test:nth-child(1) .photo-testimonial{
-            background-image: url('./images/t-01.jpg');
+            background-image: url('../images/t-01.jpg');
         }
         .profile-test:nth-child(2) .photo-testimonial{
-            background-image: url('./images/t-02.jpg');
+            background-image: url('../images/t-02.jpg');
         }
         .profile-test:nth-child(3) .photo-testimonial{
-            background-image: url('./images/t-03.jpg');
+            background-image: url('../images/t-03.jpg');
         }
         .profile-test > p{
             color: rgb(97, 97, 97);
@@ -1001,7 +1001,7 @@
             .after-hero-bg{
                 width: 100%;
                 height: 50%;
-                background-image: url('./images/about-thumb-01.jpg');
+                background-image: url('../images/about-thumb-01.jpg');
                 background-size: cover;
             }
             .hero-text{
@@ -1028,7 +1028,7 @@
         }
         @media(max-width: 300px){
             .after-hero-bg{
-                background-image: url('./images/Premium\ Photo\ _\ Programmer\ working\ on\ laptop\ computer\ in\ office\ studio.jpg');
+                background-image: url('../images/Premium\ Photo\ _\ Programmer\ working\ on\ laptop\ computer\ in\ office\ studio.jpg');
             }
             .after-hero{
                 font-size: 13px;
