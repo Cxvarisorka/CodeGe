@@ -1,3 +1,5 @@
+// Side bar
+
 $('.btn').click(function(){
     $('.btn i').toggleClass('btn-color');
     $('nav ul').toggleClass('clicked');
@@ -14,6 +16,9 @@ document.addEventListener('keydown', function(ev){
         }
     }
 });
+
+// Scroll
+
 $(window).on('scroll', function(){
     if($(window).scrollTop()>=60 && !$('nav').hasClass('fixed')){
         $('nav').addClass('fixed'); 
@@ -21,4 +26,12 @@ $(window).on('scroll', function(){
     else if($(window).scrollTop()<60 && $('nav').hasClass('fixed')){
        $('nav').removeClass('fixed');
     }
+});
+
+// Loader
+
+const loader = $('.main-loader');
+
+$(document).ready(function() {
+    loader.css('display', 'none');
 });
