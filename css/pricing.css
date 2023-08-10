@@ -1,0 +1,215 @@
+ul{
+    list-style-type: none;
+}
+.hero{
+    width: 100%;
+    height: 450px;
+    background-image: url('../images/single-about.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 16px;
+}
+.hero p:nth-child(1){
+    font-size: 2.8em;
+    font-weight: 700;
+    color: white;
+    font-family: Merriweather;
+}
+.hero p:nth-child(2){
+    color: white;
+    font-weight: 700;
+    display: flex;
+}
+@media (max-width: 1500px){
+    .hero{
+        font-size: 14px;
+    }
+    .hero p:nth-child(1){
+        font-size: 2em;
+    }
+    .hero p:nth-child(2){
+        font-size: 0.9em;
+    }
+}
+.pricing{
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px;
+    font-size: 16px;
+    gap: 3.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top-pricing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+}
+.top-pricing p:nth-child(1){
+    font-family: Merriweather;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    color: rgb(159, 159, 159);
+    font-size: 1em;
+}
+.top-pricing p:nth-child(2){
+    font-family: Merriweather;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+.top-pricing p:nth-child(2) span{
+    font-weight: 700;
+    font-family: Merriweather;
+}
+.top-pricing hr{
+    border: 3px solid #0C5ADB;
+    width: 20em;
+}
+.bottom-pricing{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.price:nth-child(2){
+    color: white;
+    width: 400px;
+    height: 650px;
+    background-color: #0C5ADB;
+}
+.price i{
+    font-size: 2.8em;
+}
+.price p:nth-child(2){
+    font-size: 1.3em;
+    font-family: Merriweather;
+    font-weight: 700;
+}
+.price p:nth-child(3){
+    font-size: 3.5em;
+    font-family: Merriweather;
+    font-weight: 700;
+}
+.price p:nth-child(3) sup, .price p:nth-child(3) span{
+    color: rgb(129, 129, 129);
+    font-size: 25px;
+    font-family: Merriweather;
+    font-weight: normal;
+}
+.price > div p{
+    font-weight: 600;
+    font-family: Merriweather;
+    margin-bottom: 1em;
+}
+.price > div > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1em;
+}
+.price > a{
+    font-size: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #0C5ADB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 60px;
+    border-radius: 5px;
+    color: #0C5ADB;
+    transition: 0.25s;
+}
+.price > a:hover{
+    background-color: #0C5ADB;
+    color: white;
+}
+#sec-pr{
+    border: 2px solid #fcfcfc;
+    color: white;
+}
+#sec-sup,#sec-mo{
+    color: white;
+}
+@media (max-width: 1250px){
+    .pricing{
+        font-size: 13px;
+    }
+    .price{
+        width: 300px;
+        height: 500px;
+    }
+    .price:nth-child(2){
+        width: 300px;
+        height: 550px;
+    }
+}
+@media (max-width: 950px){
+    .pricing{
+        font-size: 10px;
+    }
+    .price{
+        width: 250px;
+        height: 400px;
+    }
+    .price:nth-child(2){
+        width: 250px;
+        height: 450px;
+    }
+}
+@media (max-width: 800px){
+    .bottom-pricing{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .pricing{
+        font-size: 12px;
+    }
+    .price{
+        width: 350px;
+        height: 500px;
+    }
+    .price:nth-child(2){
+        width: 350px;
+        height: 500px;
+    }
+}
+@media (max-width: 370px){
+    .bottom-pricing{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .pricing{
+        font-size: 10px;
+        padding: 30px 20px;
+    }
+    .price{
+        width: 250px;
+        height: 350px;
+    }
+    .price:nth-child(2){
+        width: 250px;
+        height: 350px;
+    }
+}
