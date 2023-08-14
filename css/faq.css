@@ -1,0 +1,131 @@
+.hero{
+    width: 100%;
+    height: 450px;
+    background-image: url('../images/single-about.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 16px;
+}
+.hero p:nth-child(1){
+    font-size: 2.8em;
+    font-weight: 700;
+    color: white;
+    font-family: Merriweather;
+}
+.hero p:nth-child(2){
+    color: white;
+    font-weight: 700;
+    display: flex;
+}
+@media (max-width: 1500px){
+    .hero{
+        font-size: 14px;
+    }
+    .hero p:nth-child(1){
+        font-size: 2em;
+    }
+    .hero p:nth-child(2){
+        font-size: 0.9em;
+    }
+}
+.faq{
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    font-size: 16px;
+}
+.top-faq{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3em;
+}
+.top-faq p:nth-child(1){
+    font-family: Merriweather;
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    color: rgb(159, 159, 159);
+    font-size: 1em;
+}
+.top-faq p:nth-child(2){
+    font-family: Merriweather;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+.top-faq p:nth-child(2) span{
+    font-weight: 700;
+    font-family: Merriweather;
+}
+.top-faq hr{
+    border: 3px solid #0C5ADB;
+    width: 20em;
+}
+.bottom-faq{
+    display: flex;
+    gap: 1.5em;
+}
+.questions-sides-1,.questions-sides-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 650px;
+}
+.question{
+    border: 2px solid #0C5ADB;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.top-question{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+.top-question p,i{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #0C5ADB;
+}
+.bottom-question{
+    text-align: start;
+    padding: 0 20px 20px 20px;
+    font-size: 1.2em;
+    color: rgb(73, 73, 73);
+    transition: 0.25s;
+}
+.disp{
+    display: none;
+}
+@media(max-width: 1500px){
+    .faq{
+        font-size: 14px;
+    }
+    .questions-sides-1,.questions-sides-2{
+        width: 400px;
+    }
+}
+@media(max-width: 850px){
+    .faq{
+        font-size: 13px;
+    }
+    .bottom-faq{
+        width: 100%;
+        flex-direction: column;
+    }
+    .questions-sides-1,.questions-sides-2{
+        flex-direction: column;
+        width: 100%;
+    }
+}
